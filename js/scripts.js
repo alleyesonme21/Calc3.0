@@ -16,10 +16,6 @@ const divide = function(number1, number2) {
   return number1 / number2;
     };
 
-const convertc2tb = function(number1) {
-  return number1 * 16
-    };
-
   //User Interface logic//
   
   $(document).ready(function() {
