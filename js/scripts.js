@@ -24,7 +24,7 @@ const divide = function(number1, number2) {
       const number1 = parseInt($("#input1").val());
       const number2 = parseInt($("#input2").val());
       const operator = $("input:radio[name=operator]:checked").val();
-      const result;
+      let result;
       if (operator === "add") {
         result = add(number1, number2);
       } else if (operator === "subtract") {
